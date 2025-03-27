@@ -21,8 +21,8 @@ This project is built using simple yet powerful web technologies:
 
 ## How to View
 
-To experience "Explore Singapore with A Food Journey", simply visit [] from any modern web browser.
+To experience "Explore Singapore with A Food Journey", simply visit [https://github.com/dsyyoung/exploreSG.github.io](https://github.com/dsyyoung/exploreSG.github.io) from any modern web browser.
 
 ## Contributions
 
-This project derives from "Will You Be My Valentine?" project by nam643, visit [https://github.com/nam643/namanhxinhgai.github.io] (https://github.com/nam643/namanhxinhgai.github.io) to check the original application.
+This project derives from "Will You Be My Valentine?" project by nam643, visit [https://github.com/nam643/namanhxinhgai.github.io](https://github.com/nam643/namanhxinhgai.github.io) to check the original application.

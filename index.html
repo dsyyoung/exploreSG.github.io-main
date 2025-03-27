@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitation</title>
+    <link rel="stylesheet" href="css/invitation.css" />
+  </head>
+  <body>
+    <div id="invitationQuestion"><b>Will you hang out with me?</b></div>
+    <button class="answerButton" onclick="location.href='thankyou.html'">
+      Of course!
+    </button>
+    <button class="answerButton" id="noButton">Sorry...</button>
+    <br />
+    <img src="oi.jpeg" alt="cat asking question" />
+
+    <script>
+      document
+        .getElementById("noButton")
+        .addEventListener("click", function () {
+          var yesButton = document.querySelector(
+            'button[onclick*="thankyou.html"]'
+          );
+          var currentFontSize = parseInt(
+            window.getComputedStyle(yesButton).fontSize
+          );
+          yesButton.style.fontSize = currentFontSize + 10 + "px"; // Increase font size by 5px
+        });
+    </script>
+  </body>
+</html>

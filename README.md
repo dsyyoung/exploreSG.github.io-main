@@ -21,7 +21,7 @@ This project is built using simple yet powerful web technologies:
 
 ## How to View
 
-To experience "Explore Singapore with A Food Journey", simply visit [https://github.com/dsyyoung/exploreSG.github.io](https://github.com/dsyyoung/exploreSG.github.io) from any modern web browser.
+To experience "Explore Singapore with A Food Journey", simply visit [https://dsyyoung.github.io/exploreSG.github.io-main/](https://dsyyoung.github.io/exploreSG.github.io-main/) from any modern web browser.
 
 ## Contributions
 

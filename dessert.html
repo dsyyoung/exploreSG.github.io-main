@@ -43,8 +43,14 @@
         <label><input type="checkbox" name="dessert" value="donut" /> donut</label>
       </div>
     </div>
-    <button class="button" onclick="location.href='lastpage.html'">
-      I got this!
-    </button>
+    <button class="button" onclick="saveDessert()">I got this!</button>
+    <script>
+      function saveDessert() {
+        const desserts = document.querySelectorAll('input[name="dessert"]:checked');
+        const selectedDessert = Array.from(desserts).map(dessert => dessert.value);
+        localStorage.setItem('selectedDessert', JSON.stringify(selectedDessert));
+        window.location.href = 'invitation.html';
+      }
+    </script>
   </body>
 </html>

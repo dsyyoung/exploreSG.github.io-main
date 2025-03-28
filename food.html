@@ -45,8 +45,14 @@
         <label><input type="checkbox" name="food" value="sushi" /> Sushi</label>
       </div>
     </div>
-    <button class="button" onclick="location.href='dessert.html'">
-      Never forget desserts!
-    </button>
+    <button class="button" onclick="saveFood()">Never forget desserts!</button>
+    <script>
+      function saveFood() {
+        const food = document.querySelectorAll('input[name="food"]:checked');
+        const selectedFood = Array.from(food).map(food => food.value);
+        localStorage.setItem('selectedFood', JSON.stringify(selectedFood));
+        window.location.href = 'dessert.html';
+      }
+    </script>
   </body>
 </html>

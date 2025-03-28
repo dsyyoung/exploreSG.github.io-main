@@ -42,8 +42,14 @@
         <label><input type="checkbox" name="destinations" value="Clarke Quay"/>Clarke Quay</label>
       </div>
     </div>
-    <button class="button" onclick="location.href='food.html'">
-      Food choice!
-    </button>
+    <button class="button" onclick="saveDestinations()">Food choice!</button>
+    <script>
+      function saveDestinations() {
+        const destinations = document.querySelectorAll('input[name="destinations"]:checked');
+        const selectedDestinations = Array.from(destinations).map(dest => dest.value);
+        localStorage.setItem('selectedDestinations', JSON.stringify(selectedDestinations));
+        window.location.href = 'food.html';
+      }
+    </script>
   </body>
 </html>

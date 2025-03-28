@@ -18,10 +18,11 @@ body{
     display: flex;
     flex-direction: column; /* Change the direction to column */
     align-items: center;
-    justify-content: flex-start; /* Align items to the start of the container */
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-	color: #FF9494;
-	font-family: courier;
+	  color: #FF9494;
+	  font-family: courier;
 }
 
 #thankyou {
@@ -30,8 +31,8 @@ body{
     margin-top: 20px; /* Add some space at the top */
     z-index: 1000; /* Ensure it's above other elements if needed */
     position: relative; /* Adjust based on layout needs */
-	margin-bottom: 400px;
-	font-size: 50px;
+	  margin-bottom: 400px;
+	  font-size: 50px;
 }
 
 .invitation-card {

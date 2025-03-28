@@ -4,7 +4,7 @@ Welcome to the "Explore Singapore with A Food Journey" project, a playful and in
 
 ## Overview
 
-"Explore Singapore with A Food Journey" is a web-based application that presents users with the question "Will you hang out with me?" followed by two options: "Yes" and "No". After this, users will participate in planning for the outing, by selecting preferred date, distination, food and dessert.
+is an interactive web application designed to plan outings through a fun, step-by-step selection process. The experience begins with a playful invitation ("Will you hang out with me?"), then guides users through four key planning stages: preferred date, distination, food and dessert. At last, it culminates in a personalized digital invitation card showcasing all selected options, building anticipation for the outing.
 
 ## Features
 

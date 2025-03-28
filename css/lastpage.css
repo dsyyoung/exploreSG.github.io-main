@@ -5,7 +5,6 @@ body{
     flex-direction: column; /* Change the direction to column */
     align-items: center;
     justify-content: flex-start;
-    overflow: hidden;
 	  color: #FF9494;
 	  font-family: courier;
 }
@@ -16,7 +15,7 @@ body{
     margin-top: 20px; /* Add some space at the top */
     z-index: 1000; /* Ensure it's above other elements if needed */
     position: relative; /* Adjust based on layout needs */
-	  margin-bottom: 400px;
+	  margin-bottom: 20px;
 	  font-size: 50px;
 }
 
@@ -35,6 +34,7 @@ img {
     width: 80%;
     max-width: 600px;
     text-align: center;
+    margin: 20px auto;
     position: relative;
   }
   

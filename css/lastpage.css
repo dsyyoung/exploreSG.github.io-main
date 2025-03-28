@@ -18,8 +18,7 @@ body{
     display: flex;
     flex-direction: column; /* Change the direction to column */
     align-items: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     overflow: hidden;
 	  color: #FF9494;
 	  font-family: courier;
@@ -33,6 +32,12 @@ body{
     position: relative; /* Adjust based on layout needs */
 	  margin-bottom: 400px;
 	  font-size: 50px;
+}
+
+img {
+  height: 100px;
+  width: auto;
+  padding: 10px;
 }
 
 .invitation-card {
